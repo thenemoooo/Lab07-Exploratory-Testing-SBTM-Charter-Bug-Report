@@ -1,0 +1,31 @@
+# 12:44
+== a) Хоосон бие (body) POST
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Fri, 23 Oct 2026 04:44:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":7}
+HTTP 201
+== b) Form-encoded POST (Content-Type буруу)
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 23 Oct 2026 04:44:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK"}
+HTTP 200
+== c) Сөрөг он POST
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Fri, 23 Oct 2026 04:44:37 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":8}
+HTTP 201

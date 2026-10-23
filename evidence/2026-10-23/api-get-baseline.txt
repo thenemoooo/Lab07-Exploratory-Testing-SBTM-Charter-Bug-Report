@@ -1,0 +1,6 @@
+# 12:44
+[{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999},{"id":4,"title":"","author":"","year":""},{"id":5,"title":"Дөрвөн зүгийн дор","author":"Д.Нацагдорж","year":"1934"}]
+HTTP 200
+==
+{"total":5,"newest":2008}
+HTTP 200

@@ -1,0 +1,24 @@
+# 12:44
+== a) Зөв JSON POST
+HTTP/1.1 201 Created
+Content-Type: application/json
+Date: Fri, 23 Oct 2026 04:44:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK","id":6}
+HTTP 201
+== b) Буруу JSON POST (BUG-03)
+HTTP/1.1 200 OK
+Content-Type: application/json
+Date: Fri, 23 Oct 2026 04:44:29 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+Transfer-Encoding: chunked
+
+{"result":"OK"}
+HTTP 200
+== c) JSON ачаалах хаалт шалгаа
+[{"id":2,"title":"Clean Code","author":"Robert C. Martin","year":2008},{"id":3,"title":"The Pragmatic Programmer","author":"D.Thomas & A.Hunt","year":1999},{"id":4,"title":"","author":"","year":""},{"id":5,"title":"Дөрвөн зүгийн дор","author":"Д.Нацагдорж","year":"1934"},{"id":6,"title":"Зөв ном","author":"Тест зохиолч","year":2000}]
+HTTP 200
